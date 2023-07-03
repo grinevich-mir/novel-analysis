@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
 
-@author: 
-"""
 import openai
 import re
 
@@ -27,7 +24,7 @@ def extract_dialogues_from_chapter(chapter_file):
         start = end - overlap
         end = start + chunk_size
     
-    prompt = "Please extract the diaglogues along with the speaker namee from the following text: \n"
+    prompt = "Please extract the diaglogues along with the speaker name and mood of the speaker from the following text: \n"
     
     dialogues = []
     for chunk in chunks:
@@ -75,6 +72,7 @@ dialogue_collec = [re.sub(r'^\d{1,2}\.\s*', '', strings) for strings in dialogue
 print("Following are the dialogues including those of the Narrator also \n",dialogue_collec_Narr)
 print("Following are the dialogues excluding Narrator's \n", dialogue_collec)
 
+#%% output formating
 
 
 
