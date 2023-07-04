@@ -25,13 +25,14 @@ def extract_dialogues_from_chapter(chapter_file):
         end = start + chunk_size
     
     prompt = "Please extract the dialogues along with the speaker name and mood of the speaker from the following text: \n"
+    postpromt = "\n Please reply in a consistent format (dialogue in quotes followed by speaker name and mood of the speaker in brackets)"
     
     dialogues = []
     for chunk in chunks:
         # Construct the conversation with overlapping context
         conversation = [
             {'role': 'system', 'content': 'You are an expert novel reader. You understand the context of dialogues and recognise the speaker of those dialogues.'},
-            {'role': 'user', 'content': prompt+chunk}
+            {'role': 'user', 'content': prompt+chunk+postpromt}
         ]
 
         # Call the OpenAI API to generate the response
@@ -72,8 +73,19 @@ dialogue_collec = [re.sub(r'^\d{1,2}\.\s*', '', strings) for strings in dialogue
 print("Following are the dialogues including those of the Narrator also \n",dialogue_collec_Narr)
 print("Following are the dialogues excluding Narrator's \n", dialogue_collec)
 
-#%% output formating
+#%% Writing output to file
 
+# writing file containing dialogues of Narrator also
+with open('output_openai_raw.txt', 'w') as fil:
+    for line in dialogue_collec_Narr:
+        fil.write("%s\n" %line)
+
+# writing file without dialogues of Narrator
+
+with open('output_openai_fine.txt', 'w') as fil:
+    for line in dialogue_collec:
+        if "Unknown speaker" not in line:
+            fil.write("%s\n" %line)
 
 
 

@@ -80,13 +80,13 @@ print("Following are the dialogues including those of the Narrator also \n",dial
 #%% Writing output to file
 
 # writing file containing dialogues of Narrator also
-with open('output_raw.txt', 'w') as fil:
+with open('output_langchain_raw.txt', 'w') as fil:
     for line in dialogue_collection_raw:
         fil.write("%s\n" %line)
 
 # writing file without dialogues of Narrator
 
-with open('output_fine.txt', 'w') as fil:
+with open('output_langchain_fine.txt', 'w') as fil:
     for line in dialogue_collection_speakers:
         fil.write("%s\n" %line)
 
