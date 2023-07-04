@@ -84,7 +84,7 @@ with open('output_openai_raw.txt', 'w') as fil:
 
 with open('output_openai_fine.txt', 'w') as fil:
     for line in dialogue_collec:
-        if "Unknown speaker" not in line:
+        if "Unknown speaker" and "Narrator" and "Unknown" not in line:
             fil.write("%s\n" %line)
 
 
