@@ -16,10 +16,14 @@ if __name__ == "__main__":
 
     chat_model = utilities.initialize_chat_model(api_key)
 
-    system_template = """"You are an expert novel reader.You can recognize various environment sounds in the text such as like rain, crowd, car passing by, wind, forest, etc."""
+    system_template = """"You are an expert novel reader. You can recognize various environment sounds in the text such as like rain, crowd, car passing by, wind, forest, etc."""
     system_message_prompt = utilities.create_system_message_prompt(system_template)
 
-    human_template = "Please extract lines from the following text which contain environment sounds along with the name of the sound effect itself: \n {chnk} \n Please reply in a consistent format (text containing the sound effects followed by the name of the environment sound in brackets)."
+    human_template = """Please extract lines from the text which contain environment sounds along with the name of the sound effect itself.
+    Following is the text in context:\n
+    {chnk}
+    \n Please reply in a consistent format (text containing the sound effects followed by the name of the environment sound in brackets).
+    \n Please do not include speech and conversations sounds."""
     human_message_prompt = utilities.create_human_message_prompt(human_template)
 
     chat_prompt = utilities.create_chat_prompt(system_message_prompt, human_message_prompt)
