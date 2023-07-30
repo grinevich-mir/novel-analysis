@@ -16,15 +16,22 @@ if __name__ == "__main__":
 
     chat_model = utility_func.initialize_chat_model(api_key)
 
-    system_template = """"You are an expert novel reader. 
-    You store details of all the characters in the novel."""
+    system_template = """"You are an expert novel reader. You recognise the following traits of each character in the text:
+        1- Name
+        2- Age
+        3- Gender
+        4- Race
+        5- Any other character
+    You store these details of all the characters in the text."""
     system_message_prompt = utility_func.create_system_message_prompt(system_template)
 
-    human_template = """Please list the characters from the text.
-    Following is the text in context:\n
+    human_template = """Please extract all the traits (Name, age, race, gender etc) of all the characters in the following text:
     {chnk}
-    \n Please reply in a consistent format (List of characters).
-    \n If some detail is missing in the text then please write "not provided"."""
+    Try to infer all these traits from the text. If some of the traits cannot be infer then please please write "not available".
+    output should be in the following format:
+    Lor (Age-not available, Gender-Female, Race-not available, Princess)
+    John (Age-25 available, Gender-male, Race- Asian)"""
+    
     human_message_prompt = utility_func.create_human_message_prompt(human_template)
 
     chat_prompt = utility_func.create_chat_prompt(system_message_prompt, human_message_prompt)
@@ -37,8 +44,40 @@ if __name__ == "__main__":
 
     dialogue_collection_raw = utility_func.process_dialogues(dialogues)
 
-    print("Following are the characters in the text:\n", dialogue_collection_raw)
+    # print("Following are the characters in the text:\n", dialogue_collection_raw)
 
     output_raw_file = './output_sample/output_sample.txt'
    
-    utility_func.write_dialogues_to_file(dialogue_collection_raw, output_raw_file)
+    # utility_func.write_dialogues_to_file(dialogue_collection_raw, output_raw_file)
+#%%
+    unique_characters = utility_func.remove_repeating_characters(dialogue_collection_raw)
+    
+    unique_charac= utility_func.remove_enumerations_and_repeating_keys(unique_characters)
+    
+    utility_func.print_characters_with_traits(unique_charac)
+    
+    utility_func.write_to_file(output_raw_file, unique_charac)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

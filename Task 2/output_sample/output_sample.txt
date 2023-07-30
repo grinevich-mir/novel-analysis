@@ -1,33 +1,77 @@
-Characters:
-1. Pete
-2. John (Sheriff of Lake Johnson)
-3. Pete's grandfather
-4. Pete's mom
-5. Pete's dad
-Characters from the text:
-1. Pete (protagonist)
-2. Pete's parents (not named)
-3. Pete's grandfather (Jim)
-4. Robert Jones
-5. Cindy Johnson (mentioned, deceased)
-6. Sally (Pete's mom)
-7. Andrew (Pete's dad)
-8. Unnamed judge
-9. Unnamed prosecution
-10. Unnamed witnesses
-11. Unnamed police officers
-12. Unnamed janitor
-13. Unnamed friends and boyfriends of Cindy Johnson (mentioned)
-14. Unnamed people in the town who disagree with Pete's dad's view on Robert Jones's innocence (mentioned)
-Characters:
-1. Pete - the protagonist, grandson of Pete's grandpa, new in town
-2. Pete's grandpa - Pete's grandfather, lives with Pete, friendly and welcoming
-3. Mike Killebrew - a boy around Pete's age, taller and bigger than Pete, going to be in seventh grade, an athlete, hard worker, has a rough relationship with his dad
-4. Paul Anders - a boy who broke his leg falling out of a tree, has a paper route
-5. Pete's mom - not mentioned in the text
-6. Pete's dad - not mentioned in the text
-7. Girl who got murdered - not named in the text
-8. Not provided
-Characters from the text:
-1. Pete (main character)
-2. Grandpa
+pete:
+	Age: not available
+	Gender: male
+	Race: not available
+
+officer john:
+	Age: not available
+	Gender: male
+	Race: not available
+
+pete's grandfather:
+	Age: not available
+	Gender: male
+	Race: not available
+
+pete's parents:
+	Names: not available
+	Age: not available
+	Gender: Male and Female
+	Race: not available
+
+robert jones:
+	Name: Robert Jones
+	Age: not available
+	Gender: Male
+	Race: Black
+
+cindy johnson:
+	Name: Cindy Johnson
+	Age: not available
+	Gender: Female
+	Race: White
+
+sally:
+	Name: Sally
+	Age: not available
+	Gender: Female
+	Race: not available
+
+andrew:
+	Name: Andrew
+	Age: not available
+	Gender: Male
+	Race: not available
+
+grandpa:
+	Age: not available
+	Gender: Male
+	Race: not available
+
+mike killebrew:
+	Age: 16
+	Gender: Male
+	Race: not available
+
+paul anders:
+	Age: not available
+	Gender: not available
+	Race: not available
+
+june:
+	Age: not available
+	Gender: not available
+	Race: not available
+
+not available:
+	Age: not available
+	Gender: Female
+	Race: not available
+	others: Princess
+
+mom:
+	Age: not available
+	Gender: female
+	Race: not available
+	others: Pete's mother
+
