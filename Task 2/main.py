@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import sys
+
 from source import utility_func
 from langchain import LLMChain
 from langchain.chat_models import ChatOpenAI
@@ -17,20 +19,19 @@ if __name__ == "__main__":
     chat_model = utility_func.initialize_chat_model(api_key)
 
     system_template = """"You are an expert novel reader. You recognise the following traits of each character in the text:
-        1- Name
-        2- Age
-        3- Gender
-        4- Race
-        5- Any other character
+        1- Name : name of a character
+        2- Age : age group of a character from the list (child, adult, elderly)
+        3- Gender : gender of a character based on the context or name (Male, Female)
+        4- Race : race of a character (human, elf, dwarf, troll, goblinf, etc.)
     You store these details of all the characters in the text."""
     system_message_prompt = utility_func.create_system_message_prompt(system_template)
 
-    human_template = """Please extract all the traits (Name, age, race, gender etc) of all the characters in the following text:
+    human_template = """Please extract all the traits (Name, Age, Gender, Race) of all the characters that speak    in the following text:
     {chnk}
-    Try to infer all these traits from the text. If some of the traits cannot be infer then please please write "not available".
+    Try to infer all these traits from the text. If Age trait cannot be infer then please write "not available". If gender can't be identified, assume it from the name. always provide all 4 traits.
     output should be in the following format:
-    Lor (Age-not available, Gender-Female, Race-not available, Princess)
-    John (Age-25 available, Gender-male, Race- Asian)"""
+    Lor (Age-child, Gender-Female, Race-Human)
+    John (Age-adult, Gender-Male, Race-Elf)"""
     
     human_message_prompt = utility_func.create_human_message_prompt(human_template)
 
@@ -38,7 +39,8 @@ if __name__ == "__main__":
 
     chat_chain = LLMChain(llm=chat_model, prompt=chat_prompt)
 
-    chapter_file = './Data/Sample_1.txt'  # Provide the path to the chapter file
+    #chapter_file = './Data/Sample_1.txt'  # Provide the path to the chapter file
+    chapter_file = sys.argv[1]
 
     dialogues = utility_func.extract_dialogues_from_chapter(chapter_file, chat_chain)
 
@@ -46,7 +48,7 @@ if __name__ == "__main__":
 
     # print("Following are the characters in the text:\n", dialogue_collection_raw)
 
-    output_raw_file = './output_sample/output_sample.txt'
+    # output_raw_file = './output_sample/output_sample.txt'
    
     # utility_func.write_dialogues_to_file(dialogue_collection_raw, output_raw_file)
 #%%
@@ -56,7 +58,7 @@ if __name__ == "__main__":
     
     utility_func.print_characters_with_traits(unique_charac)
     
-    utility_func.write_to_file(output_raw_file, unique_charac)
+    # utility_func.write_to_file(output_raw_file, unique_charac)
     
     
     

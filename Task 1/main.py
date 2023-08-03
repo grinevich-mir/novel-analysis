@@ -3,6 +3,7 @@
 
 import openai
 import re
+import sys
 
 # Set up OpenAI API credentials
 openai.api_key = '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'
@@ -50,7 +51,8 @@ def extract_dialogues_from_chapter(chapter_file):
     return dialogues
 
 # Example usage
-chapter_file = './Data/Glimpse_Ch1.txt'  # Provide the path to the chapter file
+# chapter_file = './Data/Glimpse_Ch1.txt'  # Provide the path to the chapter file
+chapter_file = sys.argv[1]
 
 dialogues = extract_dialogues_from_chapter(chapter_file)
 
@@ -62,6 +64,7 @@ dialogues = extract_dialogues_from_chapter(chapter_file)
 #     print(f"{speaker}: {dialogue}")
 
 # All reponses including the narator
+
 tmp= [diag_tup[1].split("\n") for diag_tup in dialogues]
 
 tmp2= [re.sub(r'^\d{1,2}\.\s*','',strings) for sublist in tmp for strings in sublist if (strings != '')]
@@ -69,23 +72,12 @@ dialogue_collec_Narr = [strings for strings in tmp2 if "Dialogue" not in strings
 
 # Response without narrator
 dialogue_collec = [re.sub(r'^\d{1,2}\.\s*', '', strings) for strings in dialogue_collec_Narr if "Narrator" not in strings]
-    
-print("Following are the dialogues including those of the Narrator also \n",dialogue_collec_Narr)
-print("Following are the dialogues excluding Narrator's \n", dialogue_collec)
 
-#%% Writing output to file
 
-# writing file containing dialogues of Narrator also
-with open('output_openai_raw.txt', 'w') as fil:
-    for line in dialogue_collec_Narr:
-        fil.write("%s\n" %line)
-
-# writing file without dialogues of Narrator
-
-with open('output_openai_fine.txt', 'w') as fil:
-    for line in dialogue_collec:
-        if "Unknown speaker" and "Narrator" and "Unknown" not in line:
-            fil.write("%s\n" %line)
+#print("Following are the dialogues including those of the Narrator also \n",dialogue_collec_Narr)
+#print("Following are the dialogues excluding Narrator's \n", dialogue_collec)
+for item in dialogue_collec:
+    print(item)
 
 
 
