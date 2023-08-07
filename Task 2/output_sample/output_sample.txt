@@ -3,12 +3,32 @@ pete:
 	Gender: male
 	Race: not available
 
-officer john:
+officer:
+	Name: not available
 	Age: not available
 	Gender: male
 	Race: not available
 
-pete's grandfather:
+john:
+	Age: not available
+	Gender: male
+	Race: not available
+	others: Sheriff of Lake Johnson
+
+grandfather:
+	Name: not available
+	Age: not available
+	Gender: male
+	Race: not available
+
+mom:
+	Name: not available
+	Age: not available
+	Gender: female
+	Race: not available
+
+dad:
+	Name: not available
 	Age: not available
 	Gender: male
 	Race: not available
@@ -17,6 +37,12 @@ pete's parents:
 	Names: not available
 	Age: not available
 	Gender: Male and Female
+	Race: not available
+
+pete's grandfather:
+	Name: not available
+	Age: not available
+	Gender: Male
 	Race: not available
 
 robert jones:
@@ -58,20 +84,8 @@ paul anders:
 	Gender: not available
 	Race: not available
 
-june:
-	Age: not available
-	Gender: not available
-	Race: not available
-
-not available:
+bugle trail girl:
 	Age: not available
 	Gender: Female
 	Race: not available
-	others: Princess
-
-mom:
-	Age: not available
-	Gender: female
-	Race: not available
-	others: Pete's mother
 

@@ -27,7 +27,8 @@ if __name__ == "__main__":
 
     human_template = """Please extract all the traits (Name, age, race, gender etc) of all the characters in the following text:
     {chnk}
-    Try to infer all these traits from the text. If some of the traits cannot be infer then please please write "not available".
+    Try to infer all these traits from the text. If age and race cannot be infer then please please write "not available".
+    If gender is not available then please guess it.
     output should be in the following format:
     Lor (Age-not available, Gender-Female, Race-not available, Princess)
     John (Age-25 available, Gender-male, Race- Asian)"""

@@ -24,8 +24,11 @@ def extract_dialogues_from_chapter(chapter_file):
         start = end - overlap
         end = start + chunk_size
     
-    prompt = "Please extract the dialogues along with the speaker name and mood of the speaker from the following text: \n"
-    postpromt = "\n Please reply in a consistent format (dialogue in quotes followed by speaker name and mood of the speaker in brackets)"
+    prompt = """Please extract the dialogues along with the speaker name and mood of the speaker from the following text. 
+    If you couldn't find any dialogue then please don't make any artificial dialogue. 
+    text: \n"""
+    postpromt = """\n Please reply in a consistent format (dialogue in quotes followed by speaker name and mood of the speaker in brackets).
+    If there is break in the dialogue then return it as two or more separate dialogues. If the name of speaker is not known then most probably he/she is Narrator."""
     
     dialogues = []
     for chunk in chunks:
@@ -39,7 +42,7 @@ def extract_dialogues_from_chapter(chapter_file):
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo-16k",
             messages=conversation,
-            max_tokens=15000 # Adjust if using a different model with a different token limit
+            max_tokens=14000 # Adjust if using a different model with a different token limit
         )
 
         # Extract dialogues and metadata from the API response
