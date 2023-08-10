@@ -1,0 +1,116 @@
+1- Text: The old red Cadillac sat idling by the curb, Sound: Car engine running, Associated sounds: Horn honking, tires screeching, cars passing by, engine revving, car stereo playing, traffic noise, engine running sound, car engine accelerating, car engine decelerating.
+
+2- Text: The radio playing golden oldies from the 60’s, Sound: Music playing, Associated sounds: Guitar solo, drum beats, bassline, piano chords, saxophone melody, vocal harmonies, crowd cheering, tambourine shaking, trumpet solo, keyboard riff.
+
+3- Text: Moments later a black and white police cruiser pulled up slowly behind him and stopped, Sound: Car engine stopping, Associated sounds: Siren wailing, police radio chatter, car door opening and closing, footsteps on pavement, car engine starting, police car driving away.
+
+4- Text: Pete rolled down the window, Sound: Car window rolling down, Associated sounds: Wind rushing in, car passing by, car horn honking, birds chirping, distant traffic noise, car engine rumbling, car tires on wet road, raindrops hitting the car.
+
+5- Text: Their hands reached out for a shake, Sound: Handshake, Associated sounds: Hand slapping, fingers interlocking, palm rubbing, wrist cracking, knuckles popping, hand gripping, hand releasing, hand brushing against fabric.
+
+6- Text: They stood for a moment, looking at each other, Sound: Silence, Associated sounds: Wind rustling leaves, distant bird calls, footsteps on pavement, car passing by, rain falling, clock ticking, breathing, distant conversation.
+
+7- Text: Pete sat on the porch of his grandfather's old Victorian house, rocking in a faded wicker chair, Sound: Rocking chair creaking, Associated sounds: Wind chimes tinkling, birds singing, distant lawnmower, dog barking, rustling leaves, distant car engine, footsteps on porch, screen door opening and closing.
+
+8- Text: The rain fit his mood, Sound: Rain falling, Associated sounds: Thunder rumbling, lightning crackling, raindrops hitting roof, water dripping, wind blowing, distant traffic noise, umbrella opening, raincoat rustling, rain hitting puddles.
+
+9- Text: The movers ran out to their truck one last time, Sound: Footsteps, Associated sounds: Heavy breathing, boxes being lifted, truck engine starting, truck door slamming, tools clanking, radio playing in the truck, conversation between movers, truck reversing, truck driving away.
+
+10- Text: Pete could hear his mom and dad moving some boxes around, Sound: Boxes being moved, Associated sounds: Tape being ripped, cardboard scraping, objects shifting, furniture being dragged, bubble wrap popping, scissors cutting, packing peanuts rustling, packing tape dispenser clicking, packing paper crumpling.
+
+11- Sound: Gunfire, Associated sounds: Bullets whizzing, shell casings hitting the ground, gun reloading, gun safety clicking, distant screams, police sirens, helicopter overhead, glass shattering, car alarms going off.
+
+12- Sound: Rain, Associated sounds: Thunder, lightning, wind, rain hitting windows, rain hitting leaves, rain hitting pavement, rain hitting roof, rain hitting umbrella, rain hitting water puddles, rain hitting car roof.
+
+13- Sound: Crowd, Associated sounds: Laughter, applause, chatter, footsteps, clinking glasses, music playing, people talking, children playing, cash register ringing, plates clattering, distant sirens.
+
+14- Sound: Car passing by, Associated sounds: Engine revving, tires screeching, horn honking, radio playing, car stereo bass booming, car alarm going off, car engine accelerating, car engine decelerating, car tires on wet road, car exhaust rumbling.
+
+15- Sound: Wind, Associated sounds: Leaves rustling, tree branches swaying, wind chimes tinkling, wind whistling, wind blowing through grass, wind howling, wind hitting windows, wind rustling papers, wind hitting buildings, wind through trees.
+1- Text: Rain, Sound: Rainfall, Associated sounds: Thunder rumbling, lightning crackling, raindrops hitting the roof, water dripping, wind blowing, umbrella opening, puddles splashing, raincoat rustling, car wipers swishing, thunderstorm approaching.
+
+2- Text: Metal roof making a roaring sound, Sound: Roaring metal, Associated sounds: Creaking metal, rattling windows, gusts of wind, rain hitting metal, distant thunder, metal clanging, metal scraping, metal groaning, metal vibrating.
+
+3- Text: Footsteps, Sound: Footsteps, Associated sounds: Shoe squeaking, shoe tapping, shoe scuffing, shoe thumping, shoe shuffling, shoe crunching on gravel, shoe thudding on stairs, shoe dragging, shoe hitting the floor, shoe creaking.
+
+4- Text: Chili being stirred, Sound: Stirring, Associated sounds: Spoon clinking against the pot, liquid bubbling, steam hissing, ingredients mixing, pot lid rattling, simmering sound, sizzling sound, chopping sound, ladle scraping, pot handle clanking.
+
+5- Text: Screen door closing, Sound: Door closing, Associated sounds: Door creaking, latch clicking, door handle jiggling, door slamming, door opening, door squeaking, door knob turning, door unlocking, door scraping against the floor.
+
+6- Text: Stomach grumbling, Sound: Stomach growling, Associated sounds: Hunger pangs, digestive gurgling, stomach rumbling, stomach churning, hunger pains, stomach gassy sounds, stomach bubbling, stomach gurgling, stomach rumbling.
+
+7- Text: Raindrops hitting the roof, Sound: Raindrops, Associated sounds: Dripping water, splashing water, rain hitting leaves, rain hitting the ground, rain hitting a window, rain hitting an umbrella, rain hitting a puddle, rain hitting a tin roof, rain hitting a car roof.
+
+8- Text: Metal roof making a roaring sound, Sound: Roaring metal, Associated sounds: Creaking metal, rattling windows, gusts of wind, rain hitting metal, distant thunder, metal clanging, metal scraping, metal groaning, metal vibrating.
+
+9- Text: Spoon clinking against the pot, Sound: Clinking, Associated sounds: Glass clinking, silverware clinking, plates clinking, cup hitting saucer, spoon hitting a bowl, fork tapping a plate, knife hitting a cutting board, spoon stirring a cup, spoon hitting a glass.
+
+10- Text: Rain hitting the ground, Sound: Rainfall, Associated sounds: Puddles splashing, water flowing, raindrops hitting leaves, rain hitting a roof, rain hitting a window, rain hitting a car, rain hitting a sidewalk, rain hitting grass, rain hitting a river.
+
+11- Text: Thunder rumbling, Sound: Thunder, Associated sounds: Lightning crackling, rain pouring, wind howling, thunderclap, thunder echoing, thunder rolling, thunder booming, thunder rumbling in the distance, thunder crashing.
+
+12- Text: Wind blowing, Sound: Wind, Associated sounds: Leaves rustling, tree branches swaying, wind whistling, wind howling, wind gusting, wind chimes tinkling, wind rushing, wind whispering, wind roaring, wind sweeping through grass.
+
+13- Text: Metal clanging, Sound: Clanging, Associated sounds: Hammer hitting metal, metal hitting metal, bell ringing, metal door slamming, metal gate closing, metal chain rattling, metal hitting a surface, metal hitting a tool, metal hitting a pipe, metal hitting a fence.
+
+14- Text: Rain hitting a window, Sound: Rainfall, Associated sounds: Window rattling, raindrops sliding down the glass, rain hitting a windowpane, rain hitting a window sill, rain hitting a window frame, rain hitting a window screen, rain hitting a window blind, rain hitting a window ledge, rain hitting a window seal.
+
+15- Text: Rain hitting a car roof, Sound: Rainfall, Associated sounds: Car windshield wipers swishing, rain hitting car windows, rain hitting car doors, rain hitting car hood, rain hitting car trunk, rain hitting car tires, rain hitting car windshield, rain hitting car mirrors, rain hitting car roof rack.
+1- Text: Rain, Sound: Rainfall, Associated sounds: Thunder rumbling, lightning crackling, roof dripping, puddle splashing, umbrella opening, raindrops hitting leaves, rain hitting windows, rain hitting pavement, rain hitting a tin roof, rain hitting a car roof.
+
+2- Text: Footsteps, Sound: Footsteps, Associated sounds: Shoe squeaking, shoe scuffing, shoe tapping, shoe thudding, shoe crunching on gravel, shoe splashing in puddles, shoe creaking on wooden floor, shoe thumping on stairs, shoe sliding on tile, shoe rustling through leaves.
+
+3- Text: Gunfire, Sound: Gunshots, Associated sounds: Bullet casing hitting the ground, gun reloading, gun cocking, gun safety clicking, bullet whizzing through the air, bullet impact, gunshots echoing, gunshots in rapid succession, gunshots from different directions, gunshots in a shootout.
+
+4- Text: Crowd, Sound: Crowd noise, Associated sounds: Applause, cheering, laughter, chatter, clapping, whistling, booing, murmuring, crowd singing, crowd chanting.
+
+5- Text: Car passing by, Sound: Car engine, Associated sounds: Horn honking, tires screeching, car stereo playing, engine revving, traffic noise, car engine accelerating, car engine decelerating, car alarm going off, car door slamming.
+
+6- Text: Wind, Sound: Wind blowing, Associated sounds: Tree branches rustling, wind chimes tinkling, wind howling, wind whistling, leaves rustling, wind gusts, wind through grass, wind against windows, wind through a crack, wind in the distance.
+
+7- Text: Forest, Sound: Forest ambiance, Associated sounds: Birdsong, insects buzzing, leaves rustling, tree branches creaking, animal calls, wind through trees, water dripping, footsteps on forest floor, rustling of small animals, distant rustling.
+
+8- Text: Thunder, Sound: Thunder rumbling, Associated sounds: Lightning crackling, rain pouring, thunderclap, thunder echoing, thunder in the distance, thunder rolling, thunder booming, thunder rumbling overhead, thunder reverberating.
+
+9- Text: Water dripping, Sound: Dripping water, Associated sounds: Water splashing, water trickling, water droplets hitting a surface, water running, water flowing, water dripping into a bucket, water dripping from a faucet, water dripping from a leak, water dripping in a cave.
+
+10- Text: Birds singing, Sound: Birdsong, Associated sounds: Bird chirping, bird trilling, bird warbling, bird tweeting, bird calling, bird whistling, bird singing in a chorus, bird flapping wings, bird hopping on branches, bird squawking.
+
+11- Text: Footsteps on stairs, Sound: Footsteps on stairs, Associated sounds: Handrail rattling, stairs creaking, footsteps echoing, footsteps ascending, footsteps descending, footsteps on carpeted stairs, footsteps on wooden stairs, footsteps on marble stairs, footsteps on metal stairs.
+
+12- Text: Rain hitting windows, Sound: Rain on glass, Associated sounds: Window rattling, raindrops sliding down the window, raindrops tapping on the windowpane, rain streaking down the glass, raindrops hitting a window sill, raindrops splattering on the window.
+
+13- Text: Rain hitting a tin roof, Sound: Rain on a tin roof, Associated sounds: Tin roof rattling, raindrops drumming on the roof, raindrops pinging on the roof, raindrops splashing on the roof, raindrops trickling down the roof, raindrops hitting a gutter.
+
+14- Text: Rain hitting a car roof, Sound: Rain on a car roof, Associated sounds: Windshield wipers swishing, raindrops on the windshield, raindrops on the car hood, raindrops on the car windows, raindrops on the car trunk, raindrops on the car doors.
+
+15- Text: Rain hitting pavement, Sound: Rain on pavement, Associated sounds: Puddles splashing, rainwater flowing, raindrops hitting a drain, raindrops hitting a puddle, raindrops hitting a pothole, raindrops hitting a sidewalk.
+1- Text: Something dropping on the floor, Sound: Object falling sound, Associated sounds: Glass shattering, metal clanging, ceramic breaking, wood splintering, plastic cracking, liquid spilling, item rolling, debris scattering, impact thud, item hitting the ground.
+
+2- Text: Footsteps, Sound: Walking sound, Associated sounds: Running footsteps, heavy stomping, shoes squeaking, boots crunching, sandals slapping, high heels clicking, barefoot padding, shoes scuffing, shoes tapping, shoes thudding.
+
+3- Text: Rain, Sound: Rainfall, Associated sounds: Thunder rumbling, lightning crackling, raindrops hitting the roof, rain splashing, rain pouring, rain dripping, rain pattering, rain drizzling, rain on leaves, rain on windows.
+
+4- Text: Car passing by, Sound: Car engine sound, Associated sounds: Horn honking, tires screeching, cars accelerating, cars decelerating, car stereo playing, traffic noise, engine revving, car doors opening/closing, car alarm.
+
+5- Text: Wind, Sound: Wind blowing, Associated sounds: Leaves rustling, tree branches swaying, wind howling, wind whistling, wind gusts, wind chimes tinkling, wind through grass, wind in the trees, wind against windows.
+
+6- Text: Forest, Sound: Forest ambiance, Associated sounds: Birdsong, insects buzzing, rustling leaves, tree creaking, animal calls, water trickling, wind through trees, footsteps on forest floor, branches snapping, distant wildlife.
+
+7- Text: Gunfire, Sound: Gunshot, Associated sounds: Bullet casing hitting the ground, gun reloading, gun chambering, gun safety clicking, gunshots echoing, bullet whizzing, gun firing in rapid succession, gun silencer, gunshots in the distance.
+
+8- Text: Crowd, Sound: Crowd noise, Associated sounds: Applause, cheering, laughter, chatter, clapping, whistling, booing, crowd murmuring, crowd singing, crowd shouting.
+
+9- Text: Thunderstorm, Sound: Thunderstorm, Associated sounds: Rain pouring, thunder rumbling, lightning crackling, wind howling, thunderclaps, rain hitting the roof, thunder echoing, thunder rolling, rain splashing, thunder booming.
+
+10- Text: Waves crashing, Sound: Ocean waves, Associated sounds: Seagulls squawking, water splashing, sand shifting, boat horn, buoy bell, seashells crunching, waves breaking on rocks, waves receding, foam bubbling, waves crashing against a pier.
+
+11- Text: Train passing by, Sound: Train horn, Associated sounds: Train wheels screeching, train engine rumbling, train brakes squealing, train whistle blowing, train doors opening/closing, train announcement, train tracks clacking, train bell ringing, train accelerating.
+
+12- Text: Fire crackling, Sound: Fire burning, Associated sounds: Wood popping, embers hissing, firewood shifting, flames roaring, fire crackling softly, fire sparks, firewood being added, firewood collapsing, fire flickering.
+
+13- Text: Birds chirping, Sound: Birdsong, Associated sounds: Bird calls, bird wings flapping, bird trilling, bird singing, bird tweeting, bird warbling, bird whistling, bird melodies, bird chirping in the distance, bird flock flying.
+
+14- Text: Waterfall, Sound: Waterfall, Associated sounds: Water rushing, water splashing, water cascading, rocks tumbling, birds near the waterfall, wind blowing near the waterfall, water droplets, water hitting rocks, water misting, water gushing.
+
+15- Text: Church bells ringing, Sound: Church bells, Associated sounds: Bell tolling, bell chiming, bell ringing in the distance, bell melody, bell pealing, bell clanging, bell resonance, bell harmonics, bell tower echoes, bell vibrations.
